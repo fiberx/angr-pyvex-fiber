@@ -3,7 +3,7 @@ import functools
 
 from .vex_helper import Type
 from ...expr import IRExpr, Const, RdTmp
-from ... import get_type_size
+from ...const import get_type_size
 
 
 def checkparams(rhstype=None):
