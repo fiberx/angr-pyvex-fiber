@@ -137,5 +137,6 @@ from .. import ffi
 from .lifter import Lifter
 from .post_processor import Postprocessor
 from .libvex import LibVEXLifter
+import gym
 from .fixes import FixesPostProcessor
 from ..block import IRSB
